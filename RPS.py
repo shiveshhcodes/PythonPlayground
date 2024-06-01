@@ -53,7 +53,7 @@ def main():
     print("Computer's score:", computer_score)
 
     if user_score > computer_score:
-        print("Congratulations! You win the game.")
+        print("Congratulations! You win the game")
     elif user_score < computer_score:
         print("Computer wins the game.")
     else:
