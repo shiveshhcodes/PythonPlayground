@@ -20,7 +20,7 @@ while True:
                     if k ==1 or j ==1 or d==1:
                         print('Please do not use anu symbols other then "." , "," , "_" ')
                     else:
-                        print("Yes!! This email format is Perfect for you can use!!")
+                        print("Yes!! This email format is Perfect for you , you can use it now!!")
                         break
                 else: 
                     print(" Please use .com/.in at last. Let's Try Again. ")
