@@ -25,11 +25,11 @@ while True:
                 else: 
                     print(" Please use .com/.in at last. Let's Try Again. ")
             else:
-                print(" Please do use @ once only. Let's Try Again. ")
+                print(" Please use '@' only once. Let's Try Again. ")
         else:
             print(" Please start with Alphabets Only!! Let's Try Again. ")
     else:
-        print(" Email Must be size more then 6 characters!! Let's Try Again. ")
+        print(" Email Must be size of more then 6 characters!! Let's Try Again. ")
     
     email = input(" Enter Your Email : ")
     
