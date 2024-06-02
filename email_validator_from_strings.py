@@ -23,7 +23,7 @@ while True:
                         print("Yes!! This email format is Perfect for you can use!!")
                         break
                 else: 
-                    print(" Please prefer .com/.in at last. Let's Try Again. ")
+                    print(" Please use .com/.in at last. Let's Try Again. ")
             else:
                 print(" Please do use @ once only. Let's Try Again. ")
         else:
