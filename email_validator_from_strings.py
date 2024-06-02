@@ -1,4 +1,4 @@
-email = input(" Enter Your Email : ") #g@g.in , wscube@gmail.com
+email = input(" Enter Your Email : ")
 while True:
     k,j,d = 0,0,0
     if len(email)>=6:
