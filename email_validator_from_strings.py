@@ -50,4 +50,4 @@ while True:
     else:
         print("Phone Number Must be atleast 10 Digits!! Let's Try Again.")
         
-#     phone_number = input(" Enter your number and let's check if it's valid or not. ")
+    phone_number = input(" Enter your number and let's check if it's valid or not. ")
