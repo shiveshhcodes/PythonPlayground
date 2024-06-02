@@ -35,7 +35,7 @@ while True:
     
     
     
-# phone_number = input(" Enter your number and let's check if it's valid or not. ")
+phone_number = input(" Enter your number and let's check if it's valid or not. ")
 # while True:
 #     d,k = 0,0
 #     if len(phone_number)>=10:
