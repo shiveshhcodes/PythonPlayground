@@ -36,8 +36,8 @@ while True:
     
     
 phone_number = input(" Enter your number and let's check if it's valid or not. ")
-# while True:
-#     d,k = 0,0
+while True:
+    d,k = 0,0
 #     if len(phone_number)>=10:
 #      if (phone_number.startswith("0")) or (phone_number.startswith("+91")):
 #       if phone_number.replace("+91" , "").isdigit() or phone_number.replace("9" , "").isdigit():
