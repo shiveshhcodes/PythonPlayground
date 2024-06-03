@@ -59,6 +59,7 @@
     # elif quit_input=="c":
     #     continue
     
+import os
 import qrcode
 from PIL import Image
 import qrcode.constants
@@ -70,7 +71,13 @@ qr=qrcode.QRCode (
     border=8,
 )
 
-qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=7&t=4439s")
+qr.add_data("https://chatgpt.com/c/f74c954a-d289-4b2f-8e9c-1cf17e00a92a")
 qr.make(fit=True)
 img=qr.make_image(fill_color="blue" , back_color="yellow")
-img.save("google.png")
+
+directory = "/Users/shiveshrichhariya/Desktop/GITHUB/Python Projects/images"
+file_name = "googlee.png"
+
+file_path = os.path.join(directory , file_name)
+img.save(file_path)
+# img.save("google.png")
