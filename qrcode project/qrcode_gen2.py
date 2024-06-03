@@ -1,12 +1,76 @@
-import qrcode 
+# import qrcode 
+# from PIL import Image
+# import qrcode.constants
+
+# qr=qrcode.QRCode(
+#     version=1,
+#     error_correction=qrcode.constants.ERROR_CORRECT_H ,
+#     box_size=10,
+#     border=4,
+# )
+
+# qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=6&t=29599s")
+# qr.make(fit=True)
+# img=qr.make_image(fill_color="black" , back_color="blue")
+# img.save("100dayscode.png")
+
+# import qrcode
+# from PIL import Image
+# # import qrcode.constants
+
+# qr=qrcode.QRCode(
+#     version=1 ,
+#     # error_correction=qrcode.constants.ERROR_CORRECT_H,
+#     box_size=10,
+#     border=5,
+# )
+
+# qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=6&t=29599s")
+# qr.make(fit=True)
+# img=qr.make_image(fill_color="purple")
+# img.save("google.png")
+
+
+# import qrcode
+# from PIL import Image
+# import qrcode.constants
+
+# while True:
+#     qr=qrcode.QRCode(
+#         version=1,
+#         error_correction=qrcode.constants.ERROR_CORRECT_H,
+#         box_size=20,
+#         border=5,
+#     )
+#     qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=6&t=29599s")
+#     qr.make(fit=True)
+#     encolor = input("enter the color you want to get print - ")
+#     img=qr.make_image(fill_color=encolor)
+#     # file_name= f"qrcode_{encolor}.png"
+#     # img.save(file_name)
+#     img.save("google.png")
+#     # print(encolor)
+    
+    
+    
+    # quit_input = input("enter quit to end or c to continue! ")
+    # if quit_input=="quit":
+    #     break
+    # elif quit_input=="c":
+    #     continue
+    
+import qrcode
 from PIL import Image
 import qrcode.constants
 
-qr=qrcode.QRCode(version=1,
-                error_correction=qrcode.constants.ERROR_CORRECT_H ,
-                 box_size=10,border=4,)
+qr=qrcode.QRCode (
+    version = 1,
+    error_correction=qrcode.constants.ERROR_CORRECT_H,
+    box_size=30,
+    border=8,
+)
 
-qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=6&t=29599s")
+qr.add_data("https://www.youtube.com/watch?v=OKuiyX5k6zg&list=LL&index=7&t=4439s")
 qr.make(fit=True)
-img=qr.make_image(fill_color="black" , back_color="blue")
-img.save("100dayscode.png")
+img=qr.make_image(fill_color="blue" , back_color="yellow")
+img.save("google.png")
