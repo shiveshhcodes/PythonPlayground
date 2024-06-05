@@ -3,6 +3,7 @@ from cryptography.fernet import Fernet
 
 master_pwd = input("What is the master password? ")
 
+'''
 def write_key():
     keyfolder_path = '/Users/shiveshrichhariya/Desktop/GITHUB/Python Projects/PythonPlayground/password manager/encrypted key'
     keyfile_path = os.path.join(keyfolder_path , 'key.key')
@@ -10,10 +11,13 @@ def write_key():
     
     key = Fernet.generate_key()
     with open(keyfile_path , "wb") as key_file:
-        key_file.write(key)
-        
-write_key()
+        key_file.write(key) '''
     
+def load_key():
+    file = open("key.key" , "rb")
+    key = file.read()
+    file.close()
+    return key
 def add():
     folder_path = '/Users/shiveshrichhariya/Desktop/GITHUB/Python Projects/PythonPlayground/password manager/.txt files'
     file_path = os.path.join(folder_path , 'password.txt')
