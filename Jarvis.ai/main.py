@@ -1,27 +1,6 @@
-# import speech_recognition as sr
-# import os
-
-# def say(text):
-#     os.system(f"say {text}")
-    
-# def TakeCommand():
-#     r = sr.Recognizer()
-#     with sr.Microphone() as source:
-#         r.pause_threshold = 1
-#         audio = r.listen(source)
-#         query = r.recognize_google(audio, language="en-in")
-#         print(f"User Said: {query}")
-#         return query
-        
-# say("Hello , i am Jarvis A I")
-# while True:
-#     print("Listening...")
-#     text = TakeCommand()
-#     say(text)
-
-
 import speech_recognition as sr
 import os
+import webbrowser
 
 def say(text):
     os.system(f"say {text}")
@@ -29,9 +8,9 @@ def say(text):
 def TakeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        # print("Adjusting for ambient noise...")
-        # r.adjust_for_ambient_noise(source)
-        print("Listening...")
+        print("Adjusting for ambient noise...")
+        r.adjust_for_ambient_noise(source)
+        # print("Listening...")
         audio = r.listen(source)
         try:
             print("Recognizing...")
@@ -48,5 +27,9 @@ def TakeCommand():
 say("Hello, I am Jarvis A I")
 while True:
     print("Listening...")
-    text = TakeCommand()
-    say(text)
+    query = TakeCommand()
+    if "open youtube" in query.lower():
+        webbrowser.open("https://youtube.com")
+        say("opening Youtube shivesh")
+        break
+    
