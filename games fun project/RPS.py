@@ -21,7 +21,7 @@ def who_the_winner(user_choice, computer_choice):
             return "Computer wins, rock will break the scissor"
     elif user_choice == "Paper":
         if computer_choice == "Rock":
-            return "You win, paper will grab the rock"
+            return "You win, paper will grab the rock. hahaha"
         else:
             return "Computer wins, scissor will cut the paper"
 
