@@ -10,12 +10,12 @@ def say(text):
 def TakeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Adjusting for ambient noise...")
+        print("Adjusting for ambient noise..")
         r.adjust_for_ambient_noise(source)
         # print("Listening...")
         audio = r.listen(source)
         try:
-            print("Recognizing...")
+            print("Now you speak , I'm Listening...")
             query = r.recognize_google(audio, language="en-in")
             print(f"User Said: {query}")
             return query
