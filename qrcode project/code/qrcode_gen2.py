@@ -73,7 +73,7 @@ qr=qrcode.QRCode (
 
 qr.add_data("https://chatgpt.com/c/f74c954a-d289-4b2f-8e9c-1cf17e00a92a")
 qr.make(fit=True)
-img=qr.make_image(fill_color="blue" , back_color="yellow")
+img=qr.make_image(fill_color="red" , back_color="green")
 
 directory = "/Users/shiveshrichhariya/Desktop/GITHUB/Python Projects/images"
 file_name = "googlee.png"
