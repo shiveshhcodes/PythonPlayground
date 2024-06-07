@@ -14,7 +14,7 @@ def TakeCommand():
         # print("Listening...")
         audio = r.listen(source)
         try:
-            print("Recognizing...")
+            print("using Open AI feature....")
             query = r.recognize_google(audio, language="en-in")
             print(f"User Said: {query}")
             return query
