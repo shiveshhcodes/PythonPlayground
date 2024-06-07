@@ -5,7 +5,7 @@ playing = input("do you want to play?? ")
 if playing.lowerll != "yes":
     quit()
     
-print("let's start playing")
+print("let's start playing shivesh")
 score = 0
 
 answer = input("who's gonna be prime minister of india?? ")
