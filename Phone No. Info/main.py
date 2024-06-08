@@ -7,7 +7,7 @@ def ensure_with(no):
 
 number = input("+91:")
 number = ensure_with(number)
-print(" phone numbers details!! ")
+print(" phone numbers details are below!! ")
 try:
     phone = phonenumbers.parse(number)
     time=timezone.time_zones_for_number(phone)
