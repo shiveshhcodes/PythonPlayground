@@ -1,4 +1,4 @@
-# FUN TIMEPASS GAME
+# FUN TIMEPASS GAME of story building
 
 name = input("Type your name: ")
 print("Welcome", name, "to this adventure!")
