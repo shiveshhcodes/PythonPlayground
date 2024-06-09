@@ -1,3 +1,5 @@
+# sends desktop notification , on input command accordingly
+
 from plyer import notification
 import time
 
