@@ -60,7 +60,7 @@
     #     continue
     
     
-#  WELL OVER FUNC CODE
+#  WELL OVER FUNC CODE to do
 import os
 import qrcode
 from PIL import Image
