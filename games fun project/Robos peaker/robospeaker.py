@@ -1,4 +1,4 @@
-# SIMPLE GAME , which speaks whatever you say.
+# SIMPLE GAME , which speaks whatever you say..
 
 import os
 
