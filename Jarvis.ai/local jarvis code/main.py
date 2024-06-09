@@ -1,4 +1,4 @@
-# TO - DO
+# TO - DO , to do it later
 # THIS IS JARVIS PROJECT AND I AM GONNA CONTINUE THIS AND MAKE IT MORE BETTER!! 
 import speech_recognition as sr
 import os
