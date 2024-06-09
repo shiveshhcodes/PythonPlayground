@@ -1,4 +1,5 @@
-# this is going to be my first project excersise in python!!
+# this is going to be my first project excersise in python!! And i made this
+# rock paper scissior game here :)
 
 import random
 
