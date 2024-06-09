@@ -7,7 +7,7 @@ ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=ce
 
 from pytube import YouTube
 
-# video link here
+# video link here and get information
 YouTube_1 = YouTube("https://www.youtube.com/watch?v=giYejigUM9A")
 print("The Title of Video is " , YouTube_1.title)
 print(YouTube_1.thumbnail_url)
