@@ -1,4 +1,4 @@
-# QUIZ GAME 
+# QUIZ GAME , like MCQS and give the score accordingly to it.
 
 print("welcome to my computer quiz!!")
 
