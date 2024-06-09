@@ -1,4 +1,4 @@
-#TO - DO
+#TO - DO , need to learn tkinter first
 
 from tkinter import *
 import speedtest
