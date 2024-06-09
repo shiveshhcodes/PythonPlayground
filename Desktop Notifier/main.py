@@ -1,4 +1,4 @@
-# sends desktop notification time to time, on input command accordingly
+# sends desktop notification time to time, on input command accordingly.
 
 from plyer import notification
 import time
