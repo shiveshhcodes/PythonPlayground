@@ -1,4 +1,4 @@
-# this is going to be my first project excersise in python!! And i made this after 100 days of code excersise.
+# this is going to be my first project excersise in python!! And i made this after 100 days of code excersise...
 # rock paper scissior game here :)
 
 import random
