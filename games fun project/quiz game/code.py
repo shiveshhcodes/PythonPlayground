@@ -1,3 +1,5 @@
+# QUIZ GAME 
+
 print("welcome to my computer quiz!!")
 
 playing = input("do you want to play?? ")
