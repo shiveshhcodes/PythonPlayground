@@ -59,6 +59,8 @@
     # elif quit_input=="c":
     #     continue
     
+    
+#  WELL OVER FUNC CODE
 import os
 import qrcode
 from PIL import Image
