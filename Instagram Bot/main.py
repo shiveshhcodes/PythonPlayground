@@ -1,4 +1,4 @@
-# CAN BE USE TO CREATE A INSTAGRAM BOT.
+# CAN BE USE TO CREATE A INSTAGRAM BOT and get insights.
 
 from instabot import Bot
 bot=Bot()
