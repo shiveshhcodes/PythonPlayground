@@ -1,3 +1,5 @@
+# CAN BE USE TO CREATE A INSTAGRAM BOT.
+
 from instabot import Bot
 bot=Bot()
 # bot.login(username="shiveshhhhhhh" , password='zakmef-Jizjo7-topmyv')
