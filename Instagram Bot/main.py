@@ -10,7 +10,7 @@ bot=Bot()
 
 followers =bot.get_user_followers("shiveshhhhhhh")
 for follower in followers:
-#     print(bot.get_user_info(follower))
+    print(bot.get_user_info(follower))
     
 following =bot.get_user_following("shiveshhhhhhh")
 for Following in following:
