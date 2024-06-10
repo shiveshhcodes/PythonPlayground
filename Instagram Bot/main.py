@@ -2,7 +2,7 @@
 
 from instabot import Bot
 bot=Bot()
-# bot.login(username="shiveshhhhhhh" , password='zakmef-Jizjo7-topmyv')
+bot.login(username="shiveshhhhhhh" , password='zakmef-Jizjo7-topmyv')
 # bot.follow('https://www.instagram.com/rajat_9629/#')
 # bot.upload_photo("")
 # bot.unfollow("")
