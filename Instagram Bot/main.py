@@ -8,7 +8,7 @@ bot=Bot()
 # bot.unfollow("")
 # bot.send_message("HI" , ['warpaintjournal'])
 
-# followers =bot.get_user_followers("shiveshhhhhhh")
+followers =bot.get_user_followers("shiveshhhhhhh")
 # for follower in followers:
 #     print(bot.get_user_info(follower))
     
