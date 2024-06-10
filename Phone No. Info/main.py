@@ -1,4 +1,4 @@
-# GETS FULL INFO BY JUST MOBILE NUMBER from any country in the world3
+# GETS FULL INFO BY JUST MOBILE NUMBER from any country in the world
 
 import phonenumbers
 from phonenumbers import timezone,geocoder,carrier
