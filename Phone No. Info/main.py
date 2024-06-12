@@ -7,14 +7,14 @@ def ensure_with(no):
         no = '+91' + no
     return no
 
-def ensure_it(num):
+def ensure_func(num):
     while not (num.isdigit() and len(num) == 10):
         print("Invalid input. Please enter exactly 10 digits.")
         num = input("+91:")
     return num
 
 number = input("+91:")
-number = ensure_it(number)
+number = ensure_func(number)
 number = ensure_with(number)
 print(" phone numbers details are below!! ")
 try:
