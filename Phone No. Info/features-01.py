@@ -1,3 +1,5 @@
+# in this i am gonna learn and use limited features of this phone number library.
+import os
 import phonenumbers
 from phonenumbers import format_number , PhoneNumberFormat , is_valid_number ,  region_code_for_number , geocoder , carrier
 
@@ -20,3 +22,7 @@ print("The region code for the entered numeber is" , region_code)
 
 carrier_name = carrier.name_for_number(number , "en")
 print("The Carrier Name of The Number is - " , carrier_name)
+
+
+# print(os.path.dirname(os.path.abspath(__file__)))
+
