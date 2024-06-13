@@ -26,7 +26,8 @@ print(number)
 
 # print(os.path.dirname(os.path.abspath(__file__)))
 
-from phonenumbers import PhoneNumberMatcher
-text = "HI , my name is shivesh and i am from chhatarpur and you can call me anytime on +919425813786"
-for match in PhoneNumberMatcher(text , "IN"):
-    print(match)
+from phonenumbers import PhoneNumberMatcher , 
+# text = "HI , my name is shivesh and i am from chhatarpur and you can call me anytime on +919425813786"
+# for match in PhoneNumberMatcher(text , "IN"):
+#     print(match)
+
