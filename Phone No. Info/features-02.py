@@ -1,12 +1,12 @@
 # in this i am gonna learn and use limited features of this phone number library.
 # import os
 import phonenumbers
-from phonenumbers import format_number , PhoneNumberFormat , is_valid_number ,  region_code_for_number , geocoder , carrier
+# from phonenumbers import format_number , PhoneNumberFormat , is_valid_number ,  region_code_for_number , geocoder , carrier
 
-# print("entered number is - 9425813786\nand details of the numbers are ⬇️\n")
+print("entered number is - 9425813786\nand details of the numbers are ⬇️\n")
 
-# number = phonenumbers.parse("9425813786" , "IN" ,)
-# print(number)
+number = phonenumbers.parse("9425813786" , "IN" ,)
+print(number)
 
 # description = geocoder.description_for_number(number , "en")
 # print("This number belongs to Country", description)
@@ -26,3 +26,7 @@ from phonenumbers import format_number , PhoneNumberFormat , is_valid_number ,  
 
 # print(os.path.dirname(os.path.abspath(__file__)))
 
+from phonenumbers import PhoneNumberMatcher
+text = "HI , my name is shivesh and i am from chhatarpur and you can call me anytime on +919425813786"
+for match in PhoneNumberMatcher(text , "IN"):
+    print(match)
