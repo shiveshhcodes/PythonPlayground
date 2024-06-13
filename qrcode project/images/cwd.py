@@ -1,12 +1,12 @@
 import os
 
 # Define the directory path
-directory = "qrcode project/images"
+# directory = "qrcode project/images"
 
 # Get the directory name
-directory_name = os.path.abspath(directory)
 
-print("Directory name:", directory_name)
+
+print(os.path.dirname(os.path.abspath(__file__)))
 
 # import os
 
