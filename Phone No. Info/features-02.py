@@ -26,8 +26,23 @@ print(number)
 
 # print(os.path.dirname(os.path.abspath(__file__)))
 
-from phonenumbers import PhoneNumberMatcher , 
+# from phonenumbers import PhoneNumberMatcher , 
 # text = "HI , my name is shivesh and i am from chhatarpur and you can call me anytime on +919425813786"
 # for match in PhoneNumberMatcher(text , "IN"):
 #     print(match)
+
+# from phonenumbers import AsYouTypeFormatter
+
+# # Formatting a number as you type
+# formatter = AsYouTypeFormatter("IN")
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
+# print(formatter.input_digit("9"))
 
